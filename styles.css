@@ -1,0 +1,121 @@
+*{
+    font-family: 'Courier New', Courier, monospace;
+    
+}
+.container{
+   
+    text-align: left;
+    
+    
+}
+.display-4{
+    font-size: 700%;
+    font-family: 'Courier New', Courier, monospace;
+}
+#about1{
+    padding-top: 5%;
+    margin-top: 0%;
+    background-color: #ebebeb;
+    margin-bottom: 0%;
+    background-image: url("lasers.png");
+
+}
+#main-navbar{
+    background-color: #ebebeb;
+    
+    
+}
+#profile{
+    margin-top: 0%;
+    margin-left: 15%;
+   
+    padding-right: 10%;
+    padding-top: 5%;
+    padding-bottom: 3%;
+    text-align: left;
+    background-color: #ffffff;
+    
+}
+#profileText{
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    font-weight: 10;
+    margin-top: 10%;
+    padding-left: 4%;
+    text-align: left;
+    font-size: 240%;
+}
+
+#profile-body{
+    font-family:'Courier New', Courier, monospace;
+    font-size: 150%;
+    margin-right: 0%;
+    padding-right: 0%;
+    text-align: left;
+    font-weight: lighter;
+    color: rgb(80, 80, 80);
+}
+#resume{
+    padding-top: 2%;
+}
+#mytitle{
+    font-size: 500%;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+.card-group{
+    margin-left: 17%;
+    margin-right: 15%;
+    
+    padding-top: 5%;
+    padding-bottom: 3%;
+    
+    
+}
+#projects-head{
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    font-size: 500%;
+    text-align: left;
+    margin-left: 17%;
+    padding-top: 3%;
+    padding-bottom: 3%;
+    margin-bottom: 0%;
+    background-image: url("lasers.png");
+}
+#email{
+    padding-top: 2%;
+    margin-bottom: 0%;
+    padding-bottom: 0%;
+    color: rgb(70, 70, 70);
+}
+#laptop{
+    margin-top: 10%;
+    padding-left: 0%;
+    margin-left: 0%;
+    margin-right: 0%;
+    padding-right: 0%;
+    max-width: 200%;
+    height: auto;
+
+
+}
+#about-row{
+    display: inline-block;
+}
+#footer{
+    margin-left: 0%;
+    padding-top: 2%;
+
+}
+hr{
+    margin-top: 0%;
+    margin-bottom: 0%;
+    padding-bottom: 0%;
+    
+}
+li{
+    list-style-type: none;
+    display: inline-block;
+    
+}
+ul{
+    text-align: center;
+}
