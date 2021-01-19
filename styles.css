@@ -54,7 +54,8 @@
     font-weight: lighter;
     color: rgb(80, 80, 80);
 }
-#resume{
+.resume{
+    display: inline;
     padding-top: 2%;
 }
 #mytitle{
