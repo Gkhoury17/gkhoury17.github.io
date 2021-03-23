@@ -1,0 +1,67 @@
+body{
+    background-color: #f5e44e;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    
+    
+}
+h1{
+    color: rgb(0, 0, 0);
+    font-size: 500%;
+    width: fit-content;
+    margin: auto;
+    margin-top: 7%;
+    margin-bottom: 2%;
+    text-align: center;
+    
+}
+/* #lower{
+    margin: auto;
+    width: 50%;
+    justify-content: center;
+}
+#lower2{
+    width: fit-content;
+    margin: auto;
+} */
+#form{
+    width:max-content;
+    margin: auto;
+    margin-bottom: 5%;
+}
+
+#footer {
+    position: fixed;
+    left: 0;
+    bottom: 0;
+    width: 100%;
+    background-color:#f6871e;
+    color: white;
+    text-align: center;
+    display: inline-block;
+    padding-top: 15px;
+}
+#pfoot, #learnmore{
+    display: inline-block;
+}
+#learnmore{
+    color: rebeccapurple;
+}
+#stopwatch{
+    color: rgb(0, 0, 0);
+    font-size: 300%;
+    width: fit-content;
+    margin: auto;
+    position: static;
+    
+}
+#description{
+    width: fit-content;
+    text-align: center;
+    margin: auto;
+    margin-bottom: 5%;
+    color: rgb(0, 0, 0);
+}
+#apeMeme{
+    display: block;
+    margin: auto;
+}
