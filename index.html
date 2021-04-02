@@ -13,55 +13,40 @@
     <!-- Latest compiled JavaScript -->
     <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
     <link href="styles.css" rel="stylesheet">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
 </head>
 <body>
-    <nav class="navbar navbar-expand-lg navbar-light" id="main-navbar">
-        <a class="navbar-brand" href="#" id="myname">George Khoury</a>
-        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
-          <span class="navbar-toggler-icon"></span>
-        </button>
-        <div class="collapse navbar-collapse" id="navbarNav">
-          <ul class="navbar-nav">
-          
-          <li class="nav-item active">
-            <a class="nav-link" href="./projects.html">Projects <span class="sr-only">(current)</span></a>
-          </li>
-          </ul>
-          <ul class="nav navbar-nav navbar-right ml-auto" id="logos">
-          <li style="padding-right: 10px;">
-            <a href="https://github.com/Gkhoury17" target="_blank" rel="noopener noreferrer">
-              <img src="GitHub-Mark-64px.png" width="40" height="40">
-            </a>
-          </li>
-         
-          <li >
-            <a href="https://www.linkedin.com/in/george-k-92b753120/" target="_blank" rel="noopener noreferrer">
-              <img src="linkedin.png" width="47.04" height="40">
-            </a>
-          </li>
-          </ul>
-        </div>
-        </nav>
+    
         
         <div class="jumbotron jumbotron-fluid" id="about1">
-            <div class="container">
+            <div class="container"style="margin-bottom: 15%;margin-top: 5%;">
               
               <p class="lead">
                 <h1 id="mytitle">George Khoury
                     
                     
                 </h1>
-                <h2 class="text-muted">Aspiring software developer
+                <h2 class="text-muted">Student software developer
                     
                 </h2>
                 
             </p>
                 
                 <form method="get" action="George_Khoury_Resume.pdf" class="resume">
-                    <button type="submit" class="btn btn-secondary">Résumé</button>
+                    <button type="submit" class="btn btn-secondary" style="margin-top: 2.5%;">Résumé</button>
                 </form>
                 <form method="get" action="UX_Portfolio.pdf" class="resume">
-                  <button type="submit" class="btn btn-secondary">UX Design Portfolio</button>
+                  <button type="submit" class="btn btn-secondary" style="margin-top: 2.5%;">UX Design Portfolio</button>
+              </form>
+              <form class="resume">
+                  <a href="https://github.com/Gkhoury17" target="_blank" rel="noopener noreferrer" >
+                    <img src="GitHub-Mark-64px.png" width="40" height="40" style="margin-top: 2.5%;">
+                  </a>
+              </form>
+              <form class="resume">
+                <a href="https://www.linkedin.com/in/georgemkhoury/" target="_blank" rel="noopener noreferrer" >
+                  <img src="linkedin.png" width="47.04" height="40" style="margin-top: 2.5%;">
+                </a>
               </form>
                 
                 
@@ -74,7 +59,7 @@
           <div class="container"id="profile">
             <div class="row">
               <div class="col">
-                <h2 class="card-title" id="profileText">About Me</h2>
+                <h1 class="card-title" id="profileText">About Me</h1>
                 <div class="card-body" id="profile-body">
                     Hello! I am currently a Senior at the University of Colorado Boulder majoring in Computer Science. 
                     I am expected to graduate in May 2022. 
@@ -83,11 +68,69 @@
                     
                 </div>
               </div>
-              <div class="col">
-                
-                <img src="laptop.png" id="laptop">
-              </div>
+              
             </div>
+            </div>
+            <hr>
+
+            <h1 class="container" id="projects-head">
+              Projects
+          </h1>
+          <div class="container">
+            <h3 style="font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;font-size: 130%; ">
+              Here are some of the projects I've worked on. 
+            </h3>
+          </div>
+          
+          <div id="bottom-half" class="container">
+          <div class="card-group">
+              <div class="card">
+                <img class="card-img-top" src="./pokemon.jpg" alt="Pokémon Project">
+                <div class="card-body">
+                  <h5 class="card-title">Pokemon Project</h5>
+                  <p class="card-text">Written in C++ using over 2,000 lines of code. Concepts used cover 2D array manipulation, classes for different aspects of the game, and more. The project can be found <a href="https://github.com/Gkhoury17/Pokemon_Game"target="_blank" rel="noopener noreferrer">here.</a></p>
+                </div>
+              </div>
+              <div class="card">
+                <img class="card-img-top" src="./dontDrown.png" alt="Don't Drown">
+                <div class="card-body">
+                  <h5 class="card-title">Don't Drown</h5>
+                  <p class="card-text">A web-app game developed as a final group project. Technologies/languages used include React, SQL, HTML, CSS, Javascript, and more. The project can be found <a href="https://dontdrown.herokuapp.com/"target="_blank" rel="noopener noreferrer">here.</a></p>
+                </div>
+              </div>
+              <div class="card">
+                <img class="card-img-top" src="./usps.jpg" alt="USPS">
+                <div class="card-body">
+                  <h5 class="card-title">Data Structures & Algorithms Project</h5>
+                  <p class="card-text">Analyzed and compared runtimes of search, insert, and delete operations for different data structures with large data sets. Data structures used include hash tables (linear probing, quadratic probing, chaining), arrays, binary search trees, and linked lists.</p>
+                </div>
+              </div>
+              
+              
+            </div>
+            <div class="card-group">
+              <div class="card">
+                <img class="card-img-top" src="./ift.png" alt="IFT Test">
+                <div class="card-body">
+                  <h5 class="card-title">Infinite Monkey Theorem Test</h5>
+                  <p class="card-text">Website made with HTML, CSS, and JavaScript. Simulates the <a href="https://en.wikipedia.org/wiki/Infinite_monkey_theorem"target="_blank" rel="noopener noreferrer">Infinite Monkey Theorem</a> based on user input. Find the project <a href="./ift-test/index.html" target="_blank" rel="noopener noreferrer"> here</a>.</p>
+                </div>
+              </div>
+              <div class="card">
+                <img class="card-img-top" src="./Tend.png" alt="Tendies Project">
+                <div class="card-body">
+                  <h5 class="card-title">Tendies Landing Page</h5>
+                  <p class="card-text">Created a landing page for an app named Tendies. Built using a Bootstrap theme as the foundation. Also designed and created device mockups found on the site. Find the project <a href="./landing-page/index.html" target="_blank" rel="noopener noreferrer"> here</a>.</p>
+                </div>
+              </div>
+              <div class="card">
+                <img class="card-img-top" src="./colorify.png" alt="Colorify Project">
+                <div class="card-body">
+                  <h5 class="card-title">Colorify Chrome Extension</h5>
+                  <p class="card-text">Built a chrome extension that helps those with color blindness and other visual impairments browse the web. The extension uses content-scripts to alter CSS found on the user's webpage. Find the Github repo <a href="https://github.com/Larjun/colorify" target="_blank" rel="noopener noreferrer"> here</a>.</p>
+                </div>
+              </div>
+              
             </div>
               <footer id="footer">
                   <ul>
